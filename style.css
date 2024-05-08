@@ -1,0 +1,147 @@
+/* --------------------------------------
+  1. BODY STYLES
+-----------------------------------------*/
+body {
+  font-family: 'Poppins', sans-serif;
+  background:linear-gradient(235deg,aqua,rgb(22, 143, 241),aqua,
+            rgb(79, 216, 79),rgb(255, 203, 108),rgba(255, 50, 50, 0.849),pink,white);
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.6;
+  letter-spacing: .08rem;
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+    color: #353434;
+}
+
+/* --------------------------------------
+  2. LOGO STYLES
+-----------------------------------------*/
+.logo {
+  width: 40px;
+  height: 30px;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-radius: 15%;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+  margin-left: 7%;
+  border-radius: 15%;
+  margin-top: 7%;
+}
+
+/* --------------------------------------
+  3. IMG DIV STYLES
+-----------------------------------------*/
+.img_div {
+  background-color: #000;
+  width: 90%;
+  height: 415px;
+  margin-left: 5%;
+  border-radius: 40px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 70px;
+}
+
+.img_div img {
+  width: 175px;
+  height: auto;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 60px; 
+  color: #818080;
+  width: 100%;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  overflow: hidden;
+  border-right: 3px solid;
+  border-left: 3px solid;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+h2 {
+font-family: comic;
+font-size: 40px;
+}
+h3 {
+  font-family: comic sans MS ;
+  font-style: italic;
+}
+
+/* --------------------------------------
+  4. BUTTON STYLES
+-----------------------------------------*/
+.y-button {
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: black;
+  background-color: #0fadad;
+  border-radius: 20px;
+  line-height: 60px;
+  height: 60px;
+  width: 90%;
+  font-weight: 600;
+  text-align: center;
+  transition: all .5s;
+  box-shadow: 0 15px 40px -10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+.y-button:hover,
+.y-button:focus {
+  color: #1fe4e4;
+  background: #fff;
+  transition: all 1s ease-in-out;
+}
+
+.y-button img {
+  width: 20px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* --------------------------------------
+  5. FOOTER STYLES
+-----------------------------------------*/
+.footer {
+  padding: 5px;
+  background: #000;
+  text-align: center;
+  margin-top: 100px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+       
