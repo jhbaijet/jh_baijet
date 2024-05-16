@@ -3,10 +3,10 @@
 -----------------------------------------*/
 body {
   font-family: 'Poppins', sans-serif;
-  background:linear-gradient(235deg,aqua,rgb(22, 143, 241),aqua,rgb(160,32,240),
+  background:linear-gradient(235deg,aqua,rgb(22, 143, 241),aqua,
             rgb(79, 216, 79),rgb(255, 203, 108),rgba(255, 50, 50, 0.849),pink,red,white);
   background-size: 300% 300%;
-  animation: color 12s ease-in-out infinite;
+  animation: color 10s ease-in-out infinite;
   font-size: 1.6rem;
   color: #fff;
   line-height: 1.6;
