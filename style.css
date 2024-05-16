@@ -154,7 +154,7 @@ h3 {
 /* --------------------------------------
   6. Welcome
 -----------------------------------------*/
-#pre-loader {
+#welcome {
    background: #000000 url(Welcome.gif) no-repeat center center;
    background-size: 90%;
    height: 100vh;
