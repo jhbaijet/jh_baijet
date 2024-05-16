@@ -1,4 +1,4 @@
-const loader = document.getElementById("pre-loader");
+const loader = document.getElementById("welcome");
 
 window.addEventListener("load", function () {
     
