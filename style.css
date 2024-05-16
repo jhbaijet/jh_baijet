@@ -3,13 +3,20 @@
 -----------------------------------------*/
 body {
   font-family: 'Poppins', sans-serif;
-  background:linear-gradient(235deg,aqua,rgb(22, 143, 241),aqua,
-            rgb(79, 216, 79),rgb(255, 203, 108),rgba(255, 50, 50, 0.849),pink,white);
+  background:linear-gradient(235deg,aqua,rgb(22, 143, 241),aqua,rgb(160,32,240),
+            rgb(79, 216, 79),rgb(255, 203, 108),rgba(255, 50, 50, 0.849),pink,red,white);
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
   font-size: 1.6rem;
   color: #fff;
   line-height: 1.6;
   letter-spacing: .08rem;
   font-weight: 400;
+}
+@keyframes color {
+  0%{ background-position: 0 50%; }
+  50%{ background-position: 100% 50%; }
+  100%{ background-position: 0 50%; }
 }
 
 *,
@@ -144,4 +151,15 @@ h3 {
   border-top-right-radius: 100%;
 }
 
-       
+/* --------------------------------------
+  6. Welcome
+-----------------------------------------*/
+#pre-loader {
+   background: #000000 url(Welcome.gif) no-repeat center center;
+   background-size: 90%;
+   height: 100vh;
+   width: 100%;
+   position: fixed;
+   z-index: 100;
+}
+
