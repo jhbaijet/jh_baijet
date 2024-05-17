@@ -6,7 +6,7 @@ body {
   background:linear-gradient(235deg,aqua,rgb(22, 143, 241),aqua,
             rgb(79, 216, 79),rgb(255, 203, 108),rgba(255, 50, 50, 0.849),pink,red,white);
   background-size: 300% 300%;
-  animation: color 10s ease-in-out infinite;
+  animation: color 6s ease-in-out infinite;
   font-size: 1.6rem;
   color: #fff;
   line-height: 1.6;
@@ -85,16 +85,10 @@ h1 {
   font-size: 60px; 
   color: #818080;
   width: 100%;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  overflow: hidden;
   border-right: 3px solid;
   border-left: 3px solid;
 }
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
+
 h2 {
 font-family: comic;
 font-size: 40px;
@@ -133,12 +127,6 @@ h3 {
   transition: all 1s ease-in-out;
 }
 
-.y-button img {
-  width: 20px;
-  height: auto;
-  border-radius: 5px;
-}
-
 /* --------------------------------------
   5. FOOTER STYLES
 -----------------------------------------*/
@@ -156,7 +144,7 @@ h3 {
 -----------------------------------------*/
 #welcome {
    background: #000000 url(Welcome.gif) no-repeat center center;
-   background-size: 90%;
+   background-size: 80%;
    height: 100vh;
    width: 100%;
    position: fixed;
