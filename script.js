@@ -1,8 +1,4 @@
-const loader = document.getElementById("welcome");
-
-window.addEventListener("load", function () {
-    
-    setTimeout(function () {
-        loader.style.display = "none";
-    }, 3000);
+document.addEventListener("DOMContentLoaded", function() {
+    const wc = document.getElementById('wc');
+    wc.style.display = 'none';
 });
