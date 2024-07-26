@@ -3,21 +3,13 @@
 -----------------------------------------*/
 body {
   font-family: 'Poppins', sans-serif;
-  background:linear-gradient(235deg,aqua,rgb(22, 143, 241),aqua,
-            rgb(79, 216, 79),rgb(255, 203, 108),rgba(255, 50, 50, 0.849),pink,red,white);
-  background-size: 300% 300%;
-  animation: color 6s ease-in-out infinite;
+  background-color: black;
   font-size: 1.6rem;
   color: #fff;
   line-height: 1.6;
   letter-spacing: .08rem;
   font-weight: 400;
-}
-@keyframes color {
-  0%{ background-position: 0 50%; }
-  50%{ background-position: 100% 50%; }
-  100%{ background-position: 0 50%; }
-}
+}  
 
 *,
 *::before,
@@ -56,16 +48,17 @@ a:active {
 .logo img {
   width: 40px;
   height: auto;
-  margin-left: 7%;
+  margin-left: 0%;
+  margin-top: 0%;
   border-radius: 15%;
-  margin-top: 7%;
+  position: fixed;
 }
 
 /* --------------------------------------
   3. IMG DIV STYLES
 -----------------------------------------*/
 .img_div {
-  background-color: #000;
+  background-color: #1b1b1b;
   width: 90%;
   height: 415px;
   margin-left: 5%;
@@ -105,8 +98,8 @@ h3 {
   display: inline-block;
   font-size: 20px;
   letter-spacing: 2px;
-  color: black;
-  background-color: #0fadad;
+  color: white;
+  background-color: #1b1b1b;
   border-radius: 20px;
   line-height: 60px;
   height: 60px;
@@ -122,21 +115,26 @@ h3 {
 
 .y-button:hover,
 .y-button:focus {
-  color: #1fe4e4;
-  background: #fff;
+  color: #1b1b1b;
+  background: whitesmoke;
   transition: all 1s ease-in-out;
 }
+
 
 /* --------------------------------------
   5. FOOTER STYLES
 -----------------------------------------*/
 .footer {
   padding: 5px;
-  background: #000;
+  background: #1b1b1b;
   text-align: center;
   margin-top: 100px;
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
+}
+
+p {
+  font-size: 15px;
 }
 
 /* --------------------------------------
@@ -150,4 +148,5 @@ h3 {
    position: fixed;
    z-index: 100;
 }
+
 
